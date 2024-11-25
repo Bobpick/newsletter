@@ -17,8 +17,8 @@ A Python program that automatically generates newsletters using Llama 2 AI.
 2. Install Llama 2:
   ```
   ollama pull llama2
-  git clone [your-repo-url]
-  cd [repo-name]
+  git clone https://github.com/Bobpick/newsletter
+  cd newsletter
 ```
 Install dependencies:
 ```
@@ -36,9 +36,12 @@ python newsletter1.py
 ```
 Features
 
-Random topic selection from topics.json
-Scheduled newsletter generation (default 9:50 AM)
-Auto-saves as newsletter_[timestamp].txt
+* Random topic selection from topics.json
+
+* Scheduled newsletter generation (default 9:50 AM)
+
+* Auto-saves as newsletter_[timestamp].txt
+
 
 Configuration
 Change schedule in main():
