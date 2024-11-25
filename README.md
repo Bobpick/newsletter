@@ -1,3 +1,4 @@
+![An AI-based newsletter generator](davinci.webp)
 # Newsletter Generation System
 
 A Python program that automatically generates newsletters using Llama 2 AI.
